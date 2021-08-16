@@ -1,0 +1,10 @@
+@import url(./reset.css);
+
+:root {
+	--main-color: #f6951f;
+}
+
+* {
+	font-family: 'NanumSquare', sans-serif !important;
+}
+
