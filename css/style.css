@@ -100,8 +100,14 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-	display: flex;
-	flex-direction: column;
+  display: flex;
+  flex-direction: column;
+}
+
+.main__banner-title,
+.main__banner-text,
+.app-icon {
+  width: 50%;
 }
 
 .main__banner-title {
@@ -200,7 +206,7 @@ body {
   width: 80%;
   line-height: 2rem;
   font-size: 1.2rem;
-	color: var(--dark-gray);
+  color: var(--dark-gray);
 }
 
 .dots {
@@ -215,18 +221,18 @@ body {
   background-color: var(--white);
   border: 1px solid var(--main-color);
   color: var(--main-color);
-	transition: color 200ms ease;
+  transition: color 200ms ease;
 }
 
 .campaign__more-btn:hover {
-	background: linear-gradient(
+  background: linear-gradient(
     135deg,
     rgba(246, 149, 31, 1) 0%,
     rgba(255, 202, 242, 1) 100%
   );
-	color: var(--white);
-	border: 1px solid var(--white);
-	font-weight: 600;
+  color: var(--white);
+  border: 1px solid var(--white);
+  font-weight: 600;
 }
 
 .c__item02 {
@@ -240,4 +246,81 @@ body {
 }
 
 /* main-conents */
+.main__conents {
+  flex-direction: row;
+  justify-content: center;
+}
 
+.main-con__left,
+.main-con__right {
+  display: flex;
+  flex-direction: column;
+  margin: 0 2px;
+}
+
+.list__img {
+	border-radius: var(--large-radius);
+	width: 100%;
+	height: 100%;
+	margin-bottom: -2px;
+}
+
+.second-row {
+  margin-top: 4px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.main-con__item {
+	position: relative;
+
+}
+.contents__caption, .main-hover {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.main-hover {
+	background: linear-gradient(
+    135deg,
+    rgba(246, 149, 31, 0.7) 0%,
+    rgba(255, 202, 242, 0.7) 100%
+  );
+	opacity: 0;
+	border-radius: var(--large-radius);
+	transition: all 200ms ease-in;
+}
+
+.main-con__item:hover .main-hover {
+	opacity: 1;
+}
+
+
+.caption__title {
+	font-size: 2.4rem;
+	color: var(--white);
+	margin-bottom: 36px;
+}
+
+.main__con-btn {
+	background-color: transparent;
+	color: var(--white);
+	border: 1px solid var(--white);
+	padding: 8px 16px;
+}
+
+.second-row .caption__title {
+	font-size: 2rem;
+	margin-bottom: 18px;
+}
+
+.second-row .main__con-btn {
+	font-size: 0.9rem;
+}
