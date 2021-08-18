@@ -28,12 +28,22 @@ html {
 	font-size: 10px;
 }
 
+body {
+	width: 100vw;
+	overflow-x: hidden;
+}
+
 /* header */
 
 .header {
 	display: flex;
 	padding: 24px 48px;
 	align-items: center;
+	background-color: var(--white);
+	position: sticky;
+	top: 0;
+	z-index: 1;
+	box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.05);
 }
 
 .logo {
@@ -79,4 +89,44 @@ html {
 .donate__btn:hover {
 	color: var(--main-color);
 	background-color: var(--white);
+}
+
+/* main banner */
+.main__banner {
+	width: 100%;
+	height: 600px;
+	background-image: url(../imgs/main__image.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.main__banner-title {
+	font-weight: 900;
+	font-size: 5rem;
+	position: relative;
+	top: 160px;
+	left: 48px;
+	line-height: 6rem;
+}
+
+.main__banner-text {
+	position: relative;
+	top: 200px;
+	left: 48px;
+	font-size: 1.4rem;
+	line-height: 3rem;
+}
+
+.app-icon {
+	position: relative;
+	top: 230px;
+	left: 48px;
+}
+
+.icon-img {
+	width: 50px;
+	border-radius: 50%;
+	box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.05);
+	margin-right: 12px;
 }
