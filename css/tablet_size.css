@@ -1,0 +1,149 @@
+/* header */
+header.header {
+  flex-direction: column;
+  align-items: baseline;
+  padding: 20px 24px;
+}
+
+.header .nav {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  padding: 36px 0;
+  margin: 0;
+}
+
+.nav__menu {
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+
+.nav .nav__menu-item {
+  width: 100%;
+  text-align: center;
+  padding: 16px 0;
+  font-size: 1.6rem;
+}
+
+.header__btn .donate-check__btn {
+  display: inline;
+}
+
+.header__toggle-btn.open {
+  display: inline-block;
+}
+
+/* main banner */
+.main__banner-title,
+.main__banner-text {
+  color: var(--white);
+}
+
+.app-icon .icon-img {
+  background-color: var(--dark-white);
+}
+
+/* campaign */
+.campaign__items {
+	flex-direction: column;
+	margin-top: 24px;
+}
+
+.campaign .campaign__item {
+	width: 100%;
+	flex-direction: row;
+}
+
+.campaign__item-text {
+	text-align: left;
+	width: 65%;
+}
+
+.campaign .campaign__more-btn {
+	padding: 8px 12px;
+}
+
+.dots {
+	display: none;
+}
+
+/* main contents */
+section.main__conents {
+  flex-direction: column;
+}
+
+.main__conents .main-con__left,
+.main__conents .main-con__right {
+	margin: 2px;
+  flex-direction: row;
+}
+
+.main__conents .second-row {
+	flex-direction: column;
+	margin-left: 4px;
+	margin-top: 0;
+}
+
+.main-con__item {
+	width: 400px;
+	height: 400px;
+}
+
+.second-row .main-con__item {
+	width: 198px;
+	height: 198px;
+}
+
+/* mall */
+section.mall {
+	flex-direction: column;
+}
+.mall .section__title {
+	padding-bottom: 24px;
+}
+
+.mall .mall__contents{
+	width: 100%;
+}
+
+/* adopt review */
+.adopt-review .pet-img {
+	width: 80px;
+	height: 80px;
+}
+
+.adopt-review .review__list {
+	width: 90%;
+}
+
+.adopt-review .chat-box {
+	width: 68%;
+}
+
+.select-list {
+	width: 120px;
+	height: 120px;
+}
+
+/* statis */
+
+section.statistics {
+	justify-content: space-between;
+}
+
+.statistics .statistics__text {
+	width: 50%;
+}
+
+/* footer */
+.footer {
+	flex-direction: column;
+}
+
+.footer__logo {
+	margin-bottom: 36px;
+}
+
+.footer__sns {
+	margin-top: 24px;
+}
