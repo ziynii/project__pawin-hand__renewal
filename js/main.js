@@ -16,6 +16,28 @@ navCloseBtn.addEventListener('click', () => {
 })
 
 
+// mobile campaign btn name change
+const campaignBtn = document.querySelectorAll('.campaign__more-btn');
+let mobileInnerWidth = window.matchMedia('screen and (max-width: 768px)');
+
+function sizeBtnText() {
+	if (mobileInnerWidth.matches) {
+		for (let i = 0; i < campaignBtn.length; i++) {
+			campaignBtn[i].textContent = 'Go'
+		}
+	} else {
+		for (let i = 0; i < campaignBtn.length; i++) {
+			campaignBtn[i].textContent = '자세히보기'
+		}
+	}
+}
+
+window.addEventListener('resize', sizeBtnText);
+
+sizeBtnText();
+
+
+
 // adopt review - tab menu
 const reviewTarget = document.querySelectorAll('.pet-img');
 const reviewContent = document.querySelectorAll('.review__list');
@@ -46,3 +68,4 @@ function init() {
 }
 
 init();  
+
