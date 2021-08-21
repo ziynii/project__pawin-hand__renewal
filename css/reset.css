@@ -151,10 +151,7 @@ html {
   font-size: 10px;
 }
 
-body {
-  width: 100vw;
-  overflow-x: hidden;
-}
+
 
 :root {
   /* color */
