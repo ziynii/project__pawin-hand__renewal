@@ -1,3 +1,22 @@
+// tablet and mobile nav toggle
+const navOpenBtn = document.querySelector('.open');
+const navCloseBtn = document.querySelector('.close');
+const navBar = document.querySelector('.nav')
+
+navOpenBtn.addEventListener('click', () => {
+	navBar.style.display = 'flex';
+	navOpenBtn.style.display = 'none';
+	navCloseBtn.style.display = 'inline'
+})
+
+navCloseBtn.addEventListener('click', () => {
+	navBar.style.display = 'none';
+	navOpenBtn.style.display = 'inline';
+	navCloseBtn.style.display = 'none'
+})
+
+
+// adopt review - tab menu
 const reviewTarget = document.querySelectorAll('.pet-img');
 const reviewContent = document.querySelectorAll('.review__list');
 
