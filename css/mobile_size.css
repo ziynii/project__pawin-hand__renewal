@@ -1,0 +1,206 @@
+@import url('./tablet_size.css');
+
+/* header */
+.header .logo {
+	width: 170px;
+	position: relative;
+	top: 4px;
+}
+
+.header .header__toggle-btn {
+	font-size: 2.4rem;
+}
+
+/* main banner */
+
+section .section__title {
+	font-size: 2.4rem;
+}
+
+section .section__title-sub {
+	font-size: 1.2rem;
+	width: 90%;
+}
+
+section.main__banner {
+	margin-top: 70px;
+	background-size: 1100px;
+	height: 500px;
+}
+
+.main__banner .main__banner-title {
+	top: 120px;
+	font-size: 4rem;
+	width: 80%;
+}
+
+.main__banner .main__banner-text {
+	top: 150px;
+	width: 80%;
+}
+
+.main__banner .app-icon {
+	top: 170px;
+}
+
+
+/* campaign */
+
+.campaign .campaign__items {
+	width: 90%;
+}
+
+.campaign .campaign__item {
+	padding: 36px 12px;
+	position: relative;
+}
+
+.campaign .item__title {
+	font-size: 1.6rem;
+}
+
+.campaign .campaign__more-btn {
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+	line-height: 2rem;
+	border-radius: 50%;
+	background: linear-gradient(
+  	135deg,
+    rgba(246, 149, 31, 1) 0%,
+    rgba(255, 202, 242, 1) 100%
+  );
+	color: var(--white);
+	border: none;
+}
+
+.campaign .campaign__more-btn:hover {
+	border: none;
+}
+
+/* main contents */
+.main__conents .main-con__left, .main__conents .main-con__right {
+	flex-direction: column;
+}
+
+.main__conents .second-row {
+	flex-direction: row;
+	justify-content: space-between;
+	margin-left: 0;
+	margin-top: 4px;
+}
+
+.main__conents .main-con__item {
+	width: 350px;
+	height: 350px;
+}
+
+.second-row .main-con__item {
+	width: 173px;
+	height: 173px;
+}
+
+/* mall */
+section.mall {
+	padding: 12px 6px;
+	margin: 24px 0;
+}
+
+.mall .mall__item-title {
+	font-size: 1.2rem;
+	line-height: 1.5rem;
+}
+
+.mall .mall__contents {
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.mall .mall__item {
+	width: 30%;
+	margin-bottom: 8px;
+}
+
+/* adopt review */
+
+section.adopt-review {
+	height: 1000px;
+}
+
+.adopt-review .review__list {
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+.review__pet-imgs {
+	width: 60%;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.adopt-review .pet-img {
+	width: 50px;
+	height: 50px;
+}
+
+.adopt-review .chat-box {
+	width: 100%;
+}
+
+.adopt-review .chat-box {
+	font-size: 1.2rem;
+}
+
+.adopt-review .chat-box:after {
+	top: 100%;
+	left: 85%;
+	border: solid transparent;
+	content: "";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(136, 183, 213, 0);
+	border-top-color: #b0c7b4;
+	border-width: 15px;
+	margin-left: -15px;
+	margin-top: 0;
+}
+
+.adopt-review .select-list {
+	margin-top: 24px;
+	text-align: right;
+	width: 120px;
+	height: 120px;
+}
+
+/* statistics */
+
+section.statistics {
+	flex-direction: column-reverse;
+	align-items: center;
+	padding: 36px 12px;
+}
+
+section.statistics .section__title {
+	margin-right: 0;
+	margin-bottom: 24px;
+}
+
+.statistics .statistics__text {
+	width: 100%;
+}
+
+.statistics .sta__item-title {
+	font-size: 1.2rem;
+}
+
+/* footer */
+footer.footer {
+	padding: 24px 12px;
+}
+
+.footer .fnb__menu-item {
+	font-size: 1.2rem;
+	padding: 4px 12px;
+}
