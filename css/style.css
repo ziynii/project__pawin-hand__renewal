@@ -1,13 +1,14 @@
 @import url('./reset.css');
-@import url('./tablet_size.css') only screen and (min-width:769px) and (max-width:1023px);
-@import url('./mobile_size.css') only screen and (max-width:768px);
+@import url('./tablet_size.css') only screen and (min-width: 769px) and
+  (max-width: 1023px);
+@import url('./mobile_size.css') only screen and (max-width: 768px);
 @font-face {
-	font-family: 'GmarketSansBold';
-	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
-	font-weight: normal;
-	font-style: normal;
+  font-family: 'GmarketSansBold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
-
 
 /* header */
 
@@ -18,8 +19,8 @@
   background-color: var(--white);
   position: fixed;
   top: 0;
-	left: 0;
-	right: 0;
+  left: 0;
+  right: 0;
   z-index: 1;
   box-shadow: 0px 2px 6px 2px rgba(0, 0, 0, 0.05);
 }
@@ -55,17 +56,18 @@
   color: var(--main-color);
 }
 
-.donate__btn, .donate-check__btn {
+.donate__btn,
+.donate-check__btn {
   margin: 0 8px;
-	padding: 8px 16px;
+  padding: 8px 16px;
   border-radius: var(--legular-radius);
   border: 1px solid var(--main-color);
   transition: color 100ms ease-in;
 }
 
 .donate__btn {
-	background-color: var(--main-color);
-	color: var(--white);
+  background-color: var(--main-color);
+  color: var(--white);
 }
 
 .donate__btn:hover {
@@ -74,23 +76,23 @@
 }
 
 .donate-check__btn {
-	display: none;
-	color: var(--main-color);
+  display: none;
+  color: var(--main-color);
 }
 
 .header__toggle-btn {
-	display: none;
-	position: absolute;
-	top: 24px;
-	right: 24px;
-	font-size: 2.8rem;
-	background-color: transparent;
-	color: var(--main-color);
+  display: none;
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  font-size: 2.8rem;
+  background-color: transparent;
+  color: var(--main-color);
 }
 
 /* main banner */
 .main__banner {
-	margin-top: 80px;
+  margin-top: 80px;
   width: 100%;
   height: 600px;
   background-image: url(../imgs/main__image.png);
@@ -167,7 +169,7 @@
 }
 
 .campaign__item {
-	width: 30%;
+  width: 30%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -204,7 +206,7 @@
   line-height: 2rem;
   font-size: 1.2rem;
   color: var(--dark-gray);
-	margin: auto;
+  margin: auto;
 }
 
 .dots {
@@ -271,7 +273,7 @@
 
 .main-con__item {
   position: relative;
-	cursor: pointer;
+  cursor: pointer;
 }
 .contents__caption,
 .main-hover {
@@ -340,8 +342,8 @@
 
 .mall__contents {
   display: flex;
-	justify-content: space-between;
-	width: 80%;
+  justify-content: space-between;
+  width: 80%;
 }
 
 .mall__item {
@@ -469,14 +471,14 @@
   background-color: var(--beige);
   max-width: none;
   padding: 48px;
-	flex-direction: row;
-	justify-content: space-evenly;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 .statistics .section__title {
-	margin-right: 60px;
-	line-height: 5rem;
-	color: var(--white);
-	text-align: right;
+  margin-right: 60px;
+  line-height: 5rem;
+  color: var(--white);
+  text-align: right;
 }
 
 .statistics__text {
@@ -484,18 +486,18 @@
   width: 40%;
   justify-content: space-between;
   text-align: center;
-	border: 1px solid var(--white);
+  border: 1px solid var(--white);
 }
 
 .sta__text-item {
-	padding: 24px 0;
-	border-right: 1px solid var(--white);
-	text-align: center;
-	flex-basis: 33%;
+  padding: 24px 0;
+  border-right: 1px solid var(--white);
+  text-align: center;
+  flex-basis: 33%;
 }
 
 .sta__text-item:nth-child(3) {
-	border-right: none;
+  border-right: none;
 }
 
 .sta__item-title {
@@ -507,8 +509,8 @@
 .sta__text-num {
   font-size: 3.6rem;
   font-weight: 600;
-	font-family: 'GmarketSansBold';
-	color: var(--dark-gray);
+  font-family: 'GmarketSansBold';
+  color: var(--dark-gray);
 }
 
 .per {
@@ -519,8 +521,8 @@
 .footer {
   padding: 60px 48px 36px 48px;
   display: flex;
-	align-items: center;
-	justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .footer__logo {
@@ -528,9 +530,9 @@
 }
 
 .fnb {
-	margin-left: 16px;
+  margin-left: 16px;
   display: flex;
-	align-items: center;
+  align-items: center;
 }
 
 .fnb__menu {
@@ -540,27 +542,27 @@
 .fnb__menu-item {
   font-size: 1.4rem;
   padding: 0 24px;
-	cursor: pointer;
-	border-right: 1px solid var(--dark-gray);
+  cursor: pointer;
+  border-right: 1px solid var(--dark-gray);
 }
 
 .fnb__menu-item:last-child {
-	border-right: none;
+  border-right: none;
 }
 
 .sns-icon {
   font-size: 1.6rem;
   width: 32px;
   height: 32px;
+  text-align: center;
   border-radius: 50%;
-	border: 1px solid var(--dark-gray);
-	background-color: white;
-	color: var(--dark-gray);
+  border: 1px solid var(--dark-gray);
+  background-color: white;
+  color: var(--dark-gray);
   margin: 0 2px;
-	transition: transform 200ms ease;
+  transition: transform 200ms ease;
 }
 
 .sns-icon:hover {
-	transform: scale(1.1);
+  transform: scale(1.1);
 }
-
