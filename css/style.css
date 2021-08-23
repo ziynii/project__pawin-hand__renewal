@@ -185,14 +185,10 @@
   height: 90px;
   font-size: 45px;
   line-height: 90px;
-  border-radius: 50%;
-  background: linear-gradient(
-    135deg,
-    rgba(246, 149, 31, 1) 0%,
-    rgba(255, 202, 242, 1) 100%
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+}
+
+.item__icon img {
+	width: 100%;
 }
 
 .item__title {
@@ -554,7 +550,6 @@
   font-size: 1.6rem;
   width: 32px;
   height: 32px;
-  text-align: center;
   border-radius: 50%;
   border: 1px solid var(--dark-gray);
   background-color: white;
@@ -565,4 +560,8 @@
 
 .sns-icon:hover {
   transform: scale(1.1);
+}
+
+.logo, .footer__logo {
+	cursor: pointer;
 }
