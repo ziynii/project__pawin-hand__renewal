@@ -259,7 +259,7 @@
   margin-bottom: -2px;
 }
 
-.second-row {
+.second-row__wrap {
   margin-top: 4px;
   display: flex;
   justify-content: space-between;

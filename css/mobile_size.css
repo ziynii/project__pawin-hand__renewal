@@ -86,7 +86,7 @@ section.main__banner {
 	flex-direction: column;
 }
 
-.main__conents .second-row {
+.main__conents .second-row__wrap {
 	flex-direction: row;
 	justify-content: space-between;
 	margin-left: 0;

@@ -90,10 +90,12 @@ div.main__conents {
   flex-direction: row;
 }
 
-.main__conents .second-row {
+.main__conents .second-row__wrap {
+	height: 100%;
   flex-direction: column;
   margin-left: 4px;
   margin-top: 0;
+	justify-content: space-between;
 }
 
 .main-con__item {
