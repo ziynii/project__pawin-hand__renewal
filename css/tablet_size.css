@@ -45,116 +45,116 @@ header.header {
 
 /* campaign */
 .campaign__items {
-	flex-direction: column;
-	margin-top: 24px;
+  flex-direction: column;
+  margin-top: 24px;
 }
 
 .campaign .campaign__item {
-	width: 100%;
-	flex-direction: row;
-	justify-content: center;
-	padding: 36px 0px;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  padding: 36px 0px;
 }
 
 .campaign .item__icon {
   width: 60px;
   height: 60px;
-	margin-right: 12px;
+  margin-right: 12px;
 }
 
 .campaign__item-text {
-	text-align: left;
-	width: 65%;
+  text-align: left;
+  width: 65%;
 }
 
 .campaign .item__text-content {
-	margin: 0;
+  margin: 0;
 }
 
 .campaign .campaign__more-btn {
-	padding: 8px 12px;
+  padding: 8px 12px;
 }
 
 .dots {
-	display: none;
+  display: none;
 }
 
 /* main contents */
-section.main__conents {
+div.main__conents {
   flex-direction: column;
 }
 
 .main__conents .main-con__left,
 .main__conents .main-con__right {
-	margin: 2px;
+  margin: 2px;
   flex-direction: row;
 }
 
 .main__conents .second-row {
-	flex-direction: column;
-	margin-left: 4px;
-	margin-top: 0;
+  flex-direction: column;
+  margin-left: 4px;
+  margin-top: 0;
 }
 
 .main-con__item {
-	width: 400px;
-	height: 400px;
+  width: 400px;
+  height: 400px;
 }
 
 .second-row .main-con__item {
-	width: 198px;
-	height: 198px;
+  width: 198px;
+  height: 198px;
 }
 
 /* mall */
 section.mall {
-	flex-direction: column;
+  flex-direction: column;
 }
 .mall .section__title {
-	padding-bottom: 12px;
+  padding-bottom: 12px;
 }
 
-.mall .mall__contents{
-	width: 100%;
+.mall .mall__contents {
+  width: 100%;
 }
 
 /* adopt review */
 .adopt-review .pet-img {
-	width: 80px;
-	height: 80px;
+  width: 80px;
+  height: 80px;
 }
 
 .adopt-review .review__list {
-	width: 90%;
+  width: 90%;
 }
 
 .adopt-review .chat-box {
-	width: 68%;
+  width: 68%;
 }
 
 .select-list {
-	width: 120px;
-	height: 120px;
+  width: 120px;
+  height: 120px;
 }
 
 /* statis */
 section.statistics {
-	justify-content: space-between;
+  justify-content: space-between;
 }
 
 .statistics .statistics__text {
-	width: 50%;
+  width: 50%;
 }
 
 /* footer */
 .footer {
-	flex-direction: column;
+  flex-direction: column;
 }
 
 .footer__logo {
-	margin-bottom: 36px;
+  margin-bottom: 36px;
 }
 
 .footer__sns {
-	margin-top: 24px;
+  margin-top: 24px;
 }
